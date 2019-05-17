@@ -74,7 +74,7 @@ function simples (int $num): array
 
 use ReferenceList\ReferenceList;
 
-function simples_count (int $num): array
+function simples_count (int $num): int
 {
     $sieve = new ReferenceList ([false, false]);
 
